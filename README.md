@@ -1,6 +1,8 @@
 Endroid Twitter Bundle
 ======================
 
+*By [endroid](http://endroid.nl/)*
+
 [![Build Status](https://secure.travis-ci.org/endroid/EndroidTwitterBundle.png)](http://travis-ci.org/endroid/EndroidTwitterBundle)
 
 This bundle enables you to use Endroid [`Twitter`](https://github.com/endroid/Twitter) as a service in your Symfony project.
@@ -101,3 +103,8 @@ $response = $twitter->query('statuses/user_timeline', 'GET', 'json', $parameters
 $tweets = json_decode($response->getContent());
 
 ```
+
+## License
+
+This bundle is under the MIT license. For the full copyright and license information, please view the LICENSE file that
+was distributed with this source code.
